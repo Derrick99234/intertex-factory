@@ -20,7 +20,7 @@ const OurCustomers = () => {
 
   return (
     <section className="py-8 sm:py-12 md:py-16 bg-white">
-      <h2 className="text-center text-[#091697] text-2xl sm:text-3xl md:text-[33px] font-['Marcellus_SC'] mb-8 sm:mb-10 md:mb-12 uppercase tracking-wide">
+      <h2 className="text-center text-secondary text-2xl sm:text-3xl md:text-[33px] font-['Marcellus_SC'] mb-8 sm:mb-10 md:mb-12 uppercase tracking-wide">
         Our Customers
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4 md:gap-6 px-2 sm:px-4">

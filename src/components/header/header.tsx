@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 function Header() {
@@ -22,6 +23,30 @@ function Header() {
             height={200}
           />
         </div>
+        <nav>
+          <ul className="flex gap-5">
+            <li>
+              <Link href={"/enquiries/wholesale-enquiries"}>Wholesale</Link>
+            </li>
+            <li>
+              <Link href={"/enquiries/uniforms"}>Uniform</Link>
+            </li>
+            <li>
+              <Link href={"/enquiries/distributor"}>Become a Distributor</Link>
+            </li>
+            <li>
+              <Link href={"/enquiries/customize-labels"}>Customize Labels</Link>
+            </li>
+            <li>
+              <Link href={"/enquiries/packaging"}>Packaging</Link>
+            </li>
+            <li>
+              <Link href={"/enquiries/become-an-investor"}>
+                Become an Investor
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       {/* Mobile Header */}
